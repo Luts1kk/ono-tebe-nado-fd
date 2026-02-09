@@ -27,9 +27,7 @@
 .header__links-list-item_active{
     text-decoration: none;
 }
-.noBullet {
-    list-style-type: none;
-}
+
 .header__logo{
     width: 135px;
     height: 105px;
