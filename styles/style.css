@@ -171,9 +171,9 @@
 .lots__card-list {
     display: flex;
     flex-direction: row;
+    margin-top: 27px; 
     height: 596px;
     list-style-type: none;
-    margin-top: 27px; 
     z-index: 0;
     position: relative;
     gap: 25px;
