@@ -187,7 +187,6 @@
     height: 596px;
     padding: 48px 40px 48px 40px;
     color: white;
-    
 }
 .card-title {
     font-family: "Raleway",sans-serif;
@@ -209,7 +208,6 @@
     position: relative;
     margin-top: 27px; 
 }
-
 .lots__look-more-link {
     margin-top: 34px;
     margin-left: 40px;
@@ -303,7 +301,7 @@
    font-size: 18px;
    font-weight: 400;
 }
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
 .footer__social-list-item {
@@ -316,4 +314,7 @@
 .footer__social-icon {
     width: 48px;
     height: 48px;
+}
+.address-footer-text {
+    white-space: nowrap;
 }
