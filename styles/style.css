@@ -317,3 +317,6 @@
     width: 48px;
     height: 48px;
 }
+.footer__menu-link_active {
+    text-decoration: none;
+}
