@@ -13,7 +13,7 @@
     text-underline-offset: 4px;
     font-weight: 400;
     margin-bottom: 2px;
-    height: 22px;
+    line-height: 22px;
 }
 .header__links-list {
     display: flex;
@@ -35,7 +35,7 @@
     padding-left: 2px;
 }
 
-.header-address {
+.address {
     line-height: 24px;
     display: flex;
     flex-direction: column;
@@ -166,30 +166,18 @@
 
 .card {
     width: 334px;
-    min-height: 596px;
+    height: 100%;
     padding: 48px 40px 48px 40px;
     color: white;
     text-underline-offset: 4px;
+    display: flex;
 }
-.card-link-film {
+.card-link {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
-    gap: 274px;
-    text-decoration: none;
+    justify-content: space-between;
 }
-.card-link-book {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    text-decoration: none;
-}
-.card-link-picture {
-    display: flex;
-    flex-direction: column;
-    gap: 126px;
-    text-decoration: none;
-}
-
 .card-title {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -203,7 +191,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-    text-decoration: none;
 }
 .lots__card-list-item {
     background-size: cover;
@@ -281,6 +268,7 @@
     margin-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 82px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
